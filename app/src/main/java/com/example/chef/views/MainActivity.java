@@ -1,17 +1,17 @@
-package com.example.chef;
+package com.example.chef.views;
 
 import androidx.fragment.app.FragmentActivity;
 import androidx.viewpager2.widget.ViewPager2;
 
 import android.os.Bundle;
-import android.view.View;
 
+import com.example.chef.R;
 import com.google.android.material.tabs.TabLayout;
 import com.google.android.material.tabs.TabLayoutMediator;
 
 public class MainActivity extends FragmentActivity {
 
-    ViewPager2 viewPager;
+    public ViewPager2 viewPager;
     private TabLayout tabs;
     private int[] tabIcons = {R.drawable.list_icon, R.drawable.recipe_icon};
 

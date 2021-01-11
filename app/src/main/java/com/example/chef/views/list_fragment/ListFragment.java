@@ -1,17 +1,21 @@
-package com.example.chef;
+package com.example.chef.views.list_fragment;
 
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
-import androidx.fragment.app.FragmentTransaction;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
+import com.example.chef.R;
+import com.example.chef.data.ProjectConstants;
+import com.example.chef.data.Recipe;
+import com.example.chef.views.MainActivity;
 
 import java.util.ArrayList;
 
@@ -25,12 +29,6 @@ public class ListFragment extends Fragment {
     private RecyclerView recyclerView;
 
     @Override
-    public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        populateTheRecipeList();
-    }
-
-    @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         return inflater.inflate(R.layout.fragment_list, container, false);
@@ -41,7 +39,8 @@ public class ListFragment extends Fragment {
         super.onViewCreated(view, savedInstanceState);
         recyclerView = view.findViewById(R.id.recycler_view);
 
-        OnClickFoodAction listener = (recipe) -> onClickFood(recipe, view);
+        populateTheRecipeList();
+        OnClickFoodAction listener = (recipe) -> onClickFood(recipe);
 
         FoodListAdapter adapter = new FoodListAdapter(recipeList, listener);
         LinearLayoutManager linearLayoutManager = new LinearLayoutManager(getContext());
@@ -61,7 +60,7 @@ public class ListFragment extends Fragment {
         }
     }
 
-    public void onClickFood(Recipe recipe, View view) {
+    public void onClickFood(Recipe recipe) {
 
         Bundle bundle = new Bundle();
         bundle.putParcelable(ProjectConstants.PARCELABLE_RECIPE_PARAM, recipe);

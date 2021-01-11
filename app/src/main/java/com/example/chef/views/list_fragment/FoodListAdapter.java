@@ -1,4 +1,4 @@
-package com.example.chef;
+package com.example.chef.views.list_fragment;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -8,6 +8,9 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.example.chef.R;
+import com.example.chef.data.Recipe;
 
 import java.util.ArrayList;
 
@@ -31,6 +34,7 @@ public class FoodListAdapter extends RecyclerView.Adapter<FoodListAdapter.FoodVi
     public void onBindViewHolder(@NonNull FoodViewHolder holder, int position) {
         holder.foodImage.setImageResource(recipeList.get(position).ImageId);
         holder.foodName.setText(recipeList.get(position).name);
+
         holder.itemView.setOnClickListener(v -> listener.perform(recipeList.get(position)));
     }
 

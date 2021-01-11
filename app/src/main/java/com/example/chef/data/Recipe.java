@@ -1,4 +1,4 @@
-package com.example.chef;
+package com.example.chef.data;
 
 import android.os.Parcel;
 import android.os.Parcelable;
