@@ -1,0 +1,95 @@
+<resources>
+    <string name="app_name">Chef</string>
+    <string name="default_food_name">Grandma\'s Ginger Lace Cookies</string>
+    <string-array name="food_names">
+        <item>Grandma\'s Ginger Lace Cookies</item>
+        <item>Gramma\'s Date Squares</item>
+        <item>My Grandma\'s Fruitcake Cookies</item>
+        <item>Oma Kiener\'s Hazelnut Christmas Cookies</item>
+        <item>Grandma\'s Drop Sugar Cookies</item>
+        <item>Old German Honey Cookies</item>
+        <item>Grandma Snickerdoodle Cookies</item>
+        <item>Russian Tea Cakes</item>
+        <item>Grandma\'s Old Fashioned Tea Cakes</item>
+        <item>Granny\'s Filled Cookies</item>
+        <item>Granny\'s Strawberry Filled Cookies</item>
+        <item>Granny Mabel\'s Best Bar Cookies</item>
+        <item>Snowballs</item>
+        <item>Grandma\'s Lace Cookies</item>
+        <item>Grandma\'s Oatmeal Cookies</item>
+        <item>My Nana\'s Lace Cookies</item>
+        <item>Corn Flake Peanut Butter Cookies</item>
+        <item>Gram Opal\'s Sugar Cookies</item>
+        <item>Granny\'s Shortbread Cookies</item>
+        <item>Grandma M\'s Raisin Cookies</item>
+    </string-array>
+    <string-array name="food_descriptions">
+        <item>Molasses, cinnamon, and ground ginger flavor these soft lace cookies. Sprinkle sugar on top for a little holiday shimmer. </item>
+        <item>"This is my grandmother\'s recipe which my whole family loves. You can use almond extract instead of lemon, if you wish," Mai Forrester says of these date-filled bars with chewy oatmeal crusts. </item>
+        <item>Reviewers report that these fruitcake cookies — filled with chopped mixed nuts, raisins, dates, candied pineapple, and candied cherries — taste just like their own grandmothers\' recipes. </item>
+        <item>These were one of the two Christmas cookie recipes my German grandmother made every year until her death at age 92. While they may not be fancy like other Christmas cookie recipes, they are easy to make and taste very nutty. </item>
+        <item>"My family\'s favorite Christmas cookie. Buttery and crispy. The slight coconut flavor makes this cookie the best," writes recipe creator NCHIANCONE. This simple recipe takes just 20 minutes.</item>
+        <item>"I got this recipe from my grandmother, who got it from her grandmother. She had to translate it and then figure out measurements. The original recipe called for enough flour to make a dough." — Darlen</item>
+        <item>With almost 200 reviews averaging five stars, this crowd-pleasing snickerdoodle recipe would be great for large gatherings.</item>
+        <item>"Bubba brought it with her when she came from Lithuania. I pass it on in the true spirit of this season,” says recipe creator THEAUNT708, who adds that five generations have now made these cookies during the Christmas season.</item>
+        <item>Make these tea cakes a day or two before Christmas to enjoy with your Christmas morning coffee.</item>
+        <item>"My granny always made these around Christmas. They are the easiest, best-tasting cookies around. Be warned, they are addictive," Kim Borris says. Fill them the fruit-flavored jam of your choice. </item>
+        <item>Strawberry preserves make an ideal cookie filling, especially when the berries are not in season. Recipe creator Julie Holden calls these soft, spiced cookies a favorite for Christmas.</item>
+        <item>Oatmeal, chocolate chips, and caramel ice cream topping create a gooey, buttery bar. </item>
+        <item>This recipe from home cook Lori Dehn\'s grandmother includes finely crushed peppermint candy canes for a holiday twist on Russian tea cakes.</item>
+        <item>These thin, crispy cookies would pair well with a glass of milk and a Christmas movie. </item>
+        <item>Spiced with cinnamon and nutmeg, these oatmeal cookies would taste extra comforting during the holidays.</item>
+        <item>These are delicate lace cookies with an amazing taste! A tradition in our family for Christmas since I was a little girl. These cookies spread to make a very thin wafer, almost transparent.</item>
+        <item>These five-ingredient cookies taste like peanut butter fudge with a nice crunch from cornflakes.</item>
+        <item>My grandma Opal June Carlson, "Gram C," made these cookies whenever my dad and I came to her cottage on Lake Okoboji for a visit.</item>
+        <item>"Light, buttery shortbread cookies! Cut them into Christmas shapes and decorate with colored sugar and maraschino cherries." — Lori G</item>
+        <item>These tart raisin cookies contain a few drops of lemon extract, setting them apart from the chocolaty offerings at the dessert table.</item>
+    </string-array>
+    <string name="long_recipe_description">
+        <b>Ingredients</b> \n \n
+        2 cups white sugar  \n
+        1 ½ cups shortening  \n
+        ½ cup molasses  \n
+        2 eggs  \n
+        4 cups all-purpose flour  \n
+        4 teaspoons baking soda \n
+        2 teaspoons ground cinnamon \n
+        2 teaspoons ground ginger \n
+        1 teaspoon salt \n
+        2 tablespoons white sugar, or as needed \n \n
+        Step 1 \n
+        Preheat the oven to 350 degrees F (175 C). \n \n
+        Step 2 \n
+        Beat 2 cups sugar, shortening, and molasses together in a bowl using an electric stand mixer until uniform, making sure not to overbeat. Add eggs and mix for 30 seconds. \n \n
+        Step 3 \n
+        Whisk flour, baking soda, cinnamon, ginger, and salt together in a separate bowl. Add flour mixture to sugar mixture and mix until just combined and dough is stiff. \n \n
+        Step 4 \n
+        Pour 2 tablespoons sugar in a shallow bowl. Form cookie dough into 1-inch balls. Roll in sugar, making sure not to flatten. Place on ungreased cookie sheets. \n \n
+        Step 5 \n
+        Bake in the preheated oven until cookies crackle on top for lace design, 6 to 8 minutes. Let cool for 5 minutes before transferring to a wire rack to cool completely. \n \n
+        Step 6 \n
+        Enjoy your cookies with your family. \n
+    </string>
+    <string-array name="food_image_ids">
+        <item>image01</item>
+        <item>image02</item>
+        <item>image03</item>
+        <item>image04</item>
+        <item>image05</item>
+        <item>image06</item>
+        <item>image07</item>
+        <item>image08</item>
+        <item>image09</item>
+        <item>image10</item>
+        <item>image11</item>
+        <item>image12</item>
+        <item>image13</item>
+        <item>image14</item>
+        <item>image15</item>
+        <item>image16</item>
+        <item>image17</item>
+        <item>image18</item>
+        <item>image19</item>
+        <item>image20</item>
+    </string-array>
+</resources>
